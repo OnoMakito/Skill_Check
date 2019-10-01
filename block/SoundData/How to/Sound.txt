@@ -1,0 +1,43 @@
+Nintendo Switchサウンドの入れ方
+
+
+①ライブラリの追加
+　追加の依存ファイルから、
+	　libnns_atk.a
+	  libnn_atk.a
+
+　を追加する。
+
+②Sound.hとSound.hをプロジェクトに入れる。
+
+③OutPut内にあるSoundData.fsidをプロジェクトに入れる。
+
+④Init 、Update、UninitをそれぞれMainの中に入れる。
+
+⑤OutPut内にあるStreamとSoundDあた.bfsarをromの中に移動させる。
+
+　	ここでデータ配置完了
+
+
+
+
+
+
+
+サウンドデータのコンバート
+WAVEデータを専用形式に変える必要がある。
+
+C:\Nintendo\NintendoSwitch\NintendoSDK\Tools\Audio
+にある。
+
+その中にSoundData.fspjとSoundData.fsstを入れる。
+
+
+
+exeを起動後、その中に使いたい楽曲を入れ、(SEならウェーブサウンド・BGMならストリームサウンド)
+ツールバーのコンバートを選択する。
+
+コンバート後、fspjに対してプロジェクトフォルダが上書きされる。(マクロ分として楽曲IDが登録される。)
+新しいfspjファイルとfsstをプロジェクトに上書きする。
+
+Sound.cpp内の”サウンドを読み込み”の場所にマクロ分を入れた読み込みスクリプトを追加する。

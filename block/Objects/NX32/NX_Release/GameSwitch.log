@@ -1,0 +1,50 @@
+﻿  Cleaning C:\Users\ths80288\Desktop\block\Binaries\NX32\NX_Release\GameSwitch.
+  C:\Users\ths80288\Desktop\block\Binaries\NX32\NX_Release\data <<===>> C:\Users\ths80288\Desktop\block\rom のジャンクションが作成されました
+  ball.cpp
+  bg.cpp
+  Block.cpp
+  controller.cpp
+  Effect.cpp
+  Fade.cpp
+  Game.cpp
+  Item.cpp
+  main.cpp
+C:\Users\ths80288\Desktop\block\Effect.cpp(12,15): warning : unused variable 'g_ExplosionPosition' [-Wunused-variable]
+  GraphicsHelper.Nx.cpp
+  player.cpp
+  GameOver.cpp
+  Result.cpp
+  Scene.cpp
+  Score.cpp
+  sound.cpp
+C:\Users\ths80288\Desktop\block\GraphicsHelper.Nx.cpp(102,22): warning : 'SetLayerScalingMode' is deprecated: This is deprecated. Please refer to NintendoSDK API reference for the details. [-Wdeprecated-declarations]
+  C:\Nintendo\NintendoSwitch\NintendoSDK\Include\nn\vi\vi_Layer.h(167,12): note: 'SetLayerScalingMode' has been explicitly marked deprecated here
+  C:\Nintendo\NintendoSwitch\NintendoSDK\Include\nn\detail\nn_Macro-compiler.clang.h(62,38): note: expanded from macro 'NN_DEPRECATED'
+  sprite.cpp
+C:\Users\ths80288\Desktop\block\Game.cpp(62,2): warning : expression result unused [-Wunused-value]
+  system.cpp
+  texture.cpp
+  Title.cpp
+C:\Users\ths80288\Desktop\block\Score.cpp(10,16): warning : unused variable 'g_ScorePosition' [-Wunused-variable]
+C:/Nintendo/NintendoSwitch/NintendoSDK/Include\nn/atk\atk_SoundHandle.h(182): error : undefined symbol: nn::atk::SoundHandle::DetachSound()
+C:/Users/ths80288/Desktop/block\sound.cpp(40): error : undefined symbol: nns::atk::InitializeHeap()
+C:/Users/ths80288/Desktop/block\sound.cpp(41): error : undefined symbol: nns::atk::InitializeFileSystem()
+C:/Users/ths80288/Desktop/block\sound.cpp(46): error : undefined symbol: nn::atk::SoundSystem::SoundSystemParam::SoundSystemParam()
+C:/Users/ths80288/Desktop/block\sound.cpp(47): error : undefined symbol: nn::atk::SoundSystem::GetRequiredMemSize(nn::atk::SoundSystem::SoundSystemParam const&)
+C:/Users/ths80288/Desktop/block\sound.cpp(48): error : undefined symbol: nns::atk::Allocate(unsigned int, int)
+C:/Users/ths80288/Desktop/block\sound.cpp(49): error : undefined symbol: nn::atk::SoundSystem::Initialize(nn::atk::SoundSystem::SoundSystemParam const&, unsigned int, unsigned int)
+C:/Users/ths80288/Desktop/block\sound.cpp(56): error : undefined symbol: nns::atk::Allocate(unsigned int)
+C:/Users/ths80288/Desktop/block\sound.cpp(57): error : undefined symbol: nn::atk::SoundHeap::Create(void*, unsigned int)
+C:/Users/ths80288/Desktop/block\sound.cpp(61): error : undefined symbol: nns::atk::GetAbsolutePath(char const*)
+C:/Users/ths80288/Desktop/block\sound.cpp(62): error : undefined symbol: nn::atk::FsSoundArchive::Open(char const*)
+C:/Nintendo/NintendoSwitch/NintendoSDK/Include\nn/atk\atk_SoundArchiveFileReader.h(49): error : undefined symbol: nn::atk::detail::SoundArchiveFile::FileHeader::GetInfoBlockSize() const
+C:/Users/ths80288/Desktop/block\sound.cpp(67): error : undefined symbol: nns::atk::Allocate(unsigned int, int)
+C:/Users/ths80288/Desktop/block\sound.cpp(68): error : undefined symbol: nn::atk::FsSoundArchive::LoadHeader(void*, unsigned int)
+C:/Users/ths80288/Desktop/block\sound.cpp(72): error : undefined symbol: nn::atk::SoundDataManager::GetRequiredMemSize(nn::atk::SoundArchive const*) const
+C:/Users/ths80288/Desktop/block\sound.cpp(73): error : undefined symbol: nns::atk::Allocate(unsigned int, int)
+C:/Users/ths80288/Desktop/block\sound.cpp(74): error : undefined symbol: nn::atk::SoundDataManager::Initialize(nn::atk::SoundArchive const*, void*, unsigned int)
+C:/Users/ths80288/Desktop/block\sound.cpp(82): error : undefined symbol: nn::atk::SoundArchivePlayer::GetRequiredStreamBufferSize(nn::atk::SoundArchive const*) const
+C:/Users/ths80288/Desktop/block\sound.cpp(83): error : undefined symbol: nns::atk::AllocateForMemoryPool(unsigned int)
+C:/Users/ths80288/Desktop/block\sound.cpp(86): error : undefined symbol: nns::atk::GetPoolHeapAddress()
+C:/Users/ths80288/Desktop/block\sound.cpp(86): error : too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+clang++.exe : error : linker command failed with exit code 1 (use -v to see invocation)

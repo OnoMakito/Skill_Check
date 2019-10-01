@@ -1,0 +1,6 @@
+﻿  C:\Users\ths80288\Desktop\block\Binaries\NX32\NX_Debug\data <<===>> C:\Users\ths80288\Desktop\block\rom のジャンクションが作成されました
+  Game.cpp
+C:\Users\ths80288\Desktop\block\Game.cpp(55,2): warning : expression result unused [-Wunused-value]
+  GameSwitch.vcxproj -> C:\Users\ths80288\Desktop\block\Binaries\NX32\NX_Debug\GameSwitch.nso
+  Skipping MakeMeta (no relevant changes detected)
+  GameSwitch.vcxproj -> C:\Users\ths80288\Desktop\block\Binaries\NX32\NX_Debug\GameSwitch.nspd_root

@@ -1,0 +1,9 @@
+﻿Release\check.obj : warning LNK4042: オブジェクトの指定が重複しています。余分なものは無視されます。
+Release\main.obj : warning LNK4042: オブジェクトの指定が重複しています。余分なものは無視されます。
+Release\title.obj : warning LNK4042: オブジェクトの指定が重複しています。余分なものは無視されます。
+  コード生成しています。
+  0 of 35 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  ネームバトラー -ORIGIN-.vcxproj -> C:\Users\makito1735\source\repos\ネームバトラー -ORIGIN-\Release\ネームバトラー -ORIGIN-.exe

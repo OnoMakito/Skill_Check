@@ -1,0 +1,12 @@
+﻿  Enemy.cpp
+c:\users\makito1735\source\repos\proto_shooting\enemy.cpp(121): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\makito1735\source\repos\proto_shooting\enemy.cpp(152): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+c:\users\makito1735\source\repos\proto_shooting\enemy.cpp(161): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\makito1735\source\repos\proto_shooting\enemy.cpp(211): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\makito1735\source\repos\proto_shooting\enemy.cpp(212): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+  コード生成しています。
+  2 of 232 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  Proto_Shooting.vcxproj -> C:\Users\makito1735\source\repos\Proto_Shooting\Release\Proto_Shooting.exe
